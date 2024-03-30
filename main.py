@@ -343,7 +343,7 @@ class main(ttk.Frame):
 
         logo_text = ttk.Label(
             master=hdr_frame,
-            text='基于CFL的网络入侵检测系统',
+            text='网络入侵检测系统',
             font=('TkDefaultFixed', 30),
             bootstyle=(INVERSE, SECONDARY)
         )
@@ -664,7 +664,7 @@ class main(ttk.Frame):
             textvariable='priv_lbl',
             bootstyle=PRIMARY
         ).pack(pady=(0, 20))
-        self.setvar('priv_lbl', '2023.4.1 本代码用于《应用公平聚类联邦学习的入侵检测系统》设计展示用')
+        self.setvar('priv_lbl', '2023.4.1 ')
 
         # user notification
         note_frame = ttk.Frame(
@@ -825,7 +825,7 @@ class main(ttk.Frame):
 
 
 if __name__ == '__main__':
-    app = ttk.Window("基于CFL的网络入侵检测系统 v1.0", "pulse")
+    app = ttk.Window("网络入侵检测系统 v1.0", "pulse")
     main(app)
     app.mainloop()
     r = os.system('sh /home/test/Desktop/for_test/result.sh')
