@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2023-05-04-05-55-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1683204910.840978	CXqal223ypw5Rboqdg	192.168.48.137	49210	39.156.66.14	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	-	F	-	http/1.1	F	s	-	-	-
+#close	2023-05-04-05-55-35

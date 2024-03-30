@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2023-05-04-05-55-30
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1683204895.829565	2b695352b9aec82ec705a8171bb67a73b8cd0c42bde546f23b3031e89c7d0c62	3	04DBB220159DCCDB351684B367A024D700C1	CN=firefox-settings-attachments.cdn.mozilla.net	CN=R3,O=Let's Encrypt,C=US	1683069173.000000	1690845172.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	firefox-settings-attachments.cdn.mozilla.net	-	-	-	F	-	T	F
+1683204895.829565	67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd	3	912B084ACF0C18A753F6D62E25A75F5A	CN=R3,O=Let's Encrypt,C=US	CN=ISRG Root X1,O=Internet Security Research Group,C=US	1599202800.000000	1757977200.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	0	F	F
+#close	2023-05-04-05-55-30

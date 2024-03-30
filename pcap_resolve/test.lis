@@ -1,0 +1,32 @@
+
+ZeekControl Version 2.4.1
+
+  capstats [<nodes>] [<secs>]      - Report interface statistics with capstats
+  check [<nodes>]                  - Check configuration before installing it
+  cleanup [--all] [<nodes>]        - Delete working dirs (flush state) on nodes
+  config                           - Print zeekctl configuration
+  cron [--no-watch]                - Perform jobs intended to run from cron
+  cron enable|disable|?            - Enable/disable "cron" jobs
+  deploy                           - Check, install, and restart
+  df [<nodes>]                     - Print nodes' current disk usage
+  diag [<nodes>]                   - Output diagnostics for nodes
+  exec <shell cmd>                 - Execute shell command on all hosts
+  exit                             - Exit shell
+  install                          - Update zeekctl installation/configuration
+  netstats [<nodes>]               - Print nodes' current packet counters
+  nodes                            - Print node configuration
+  peerstatus [<nodes>]             - Print status of nodes' remote connections
+  print <id> [<nodes>]             - Print values of script variable at nodes
+  process <trace> [<op>] [-- <sc>] - Run Zeek with options and scripts on trace
+  quit                             - Exit shell
+  restart [--clean] [<nodes>]      - Stop and then restart processing
+  scripts [-c] [<nodes>]           - List the Zeek scripts the nodes will load
+  start [<nodes>]                  - Start processing
+  status [<nodes>]                 - Summarize node status
+  stop [<nodes>]                   - Stop processing
+  top [<nodes>]                    - Show Zeek processes ala top
+  
+Commands provided by plugins:
+
+  ps.zeek [<nodes>]                - Show Zeek processes on nodes' systems
+

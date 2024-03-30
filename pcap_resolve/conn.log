@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2023-05-04-05-55-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1683204910.823326	CdeymKBS3lzQbWnUe	192.168.48.137	49210	39.156.66.14	443	tcp	-	-	-	-	OTH	-	-	0	C	0	0	0	0	-
+1683204910.787689	CFQETN3TeE0w4xEi5a	192.168.48.137	54099	192.168.48.2	53	udp	dns	-	-	-	SHR	-	-	0	^d	0	0	1	129	-
+1683204910.787979	CXXhDY2w1ovQCicTx5	192.168.48.137	39680	192.168.48.2	53	udp	dns	-	-	-	SHR	-	-	0	^d	0	0	1	154	-
+1683204910.788083	Cjaoo03CnG3ySBw3h5	192.168.48.137	49673	192.168.48.2	53	udp	dns	0.039214	0	108	SHR	-	-	0	Cd	0	0	1	136	-
+1683204911.128033	CqEojh1kAxC3ZX9Fuk	192.168.48.137	47867	192.168.48.2	53	udp	dns	0.004419	0	226	SHR	-	-	0	Cd	0	0	1	254	-
+1683204911.622679	C0OYRz300hhYSeQkO9	192.168.48.137	39860	152.195.38.76	80	tcp	-	1.012698	0	0	OTH	-	-	0	Ca	0	0	1	40	-
+1683204911.071215	CmNFGaeSlMStjNgA2	192.168.48.137	36654	39.156.68.81	443	tcp	-	0.085902	0	361	OTH	-	-	0	Cad	0	0	10	761	-
+1683204910.830549	CXqal223ypw5Rboqdg	192.168.48.137	49210	39.156.66.14	443	tcp	-	0.034243	0	5906	OTH	-	-	0	^hCadc	0	0	7	2309	-
+#close	2023-05-04-05-55-35
